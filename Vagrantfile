@@ -78,7 +78,7 @@ Vagrant.configure(2) do |config|
   # SHELL
 
 
-  config.vm.network "public_network", :mac => "4CA3AB1EBBB1"
+  config.vm.network "public_network", :mac => "4CA3AB1EBCB2"
 
 
     config.vm.provision "shell" do |shell|
